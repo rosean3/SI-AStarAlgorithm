@@ -81,9 +81,19 @@ def getAvailableCities(current): #retorna todas as cidades conectadas a cidade a
 def find_path(P, end): #retorna o caminho
     path = []
     aux = end
+    color = P[aux][1]
+    
     while aux != -1:
-        path.append(aux)
-        aux = P[aux]
+        path.append((aux+1, color))
+        
+        aux = P[aux][0]
+        prevColor = color
+        color = P[aux][1]
+
+        if(prevColor != color and aux != -1 ):  #repete a estação e muda a cor caso tenha baldeação
+            path.append((aux+1, prevColor))
+        
+        
     return path[::-1]
 
 def aStar(start, end):
@@ -96,7 +106,9 @@ def aStar(start, end):
 
     G = [99999] * 14
     F = [99999] * 14
-    P = [-1] * 14
+    P = [(-1, None)] * 14
+
+    P[start]= (-1, start_color)
     G[start] = 0
     F[start] = 0
     heap = []
@@ -106,12 +118,17 @@ def aStar(start, end):
         (f, u, color) = heap.pop(0)
         if (u == end):
             if color == end_color or (f+4) < heap[0][0]: # ou vc já chegou na estação com a cor certa, ou o tempo pra baldear ainda é curto o suficiente pra essa ser a melhor opção
-                if (f+4) < heap[0][0]:
+                
+                path = find_path(P, end)
+
+                if color != end_color:
+                    path.append((end+1, end_color))     #adiciona mais uma baldeação no caminho
                     G[end] += 4
                     print("yes")
+                
                 print("G: ", G[end])
-                path = find_path(P, end)
                 print(path)
+
                 return(P, G)
             else:
                 heap_update(heap, (f+4, u, end_color))
@@ -121,12 +138,15 @@ def aStar(start, end):
         for v in e:
             g = get_g("E" + str(u + 1), "E" + str(v + 1))
             transhipment = 4 if color not in line_colors[v] else 0
+
             if G[u] + g + transhipment < G[v]:
-                G[v] = G[u] + g + transhipment
-                F[v] = G[v] + get_h("E" + str(v + 1), "E14")
-                P[v] = u
                 v_color = define_color(v, u, color)
+
+                P[v] = (u, v_color)
+                G[v] = G[u] + g + transhipment
+                F[v] = G[v] + get_h("E" + str(v + 1), "E" + str(end+1))
+             
                 heap_update(heap, (F[v], v, v_color))
 
 makearray()
-aStar("estação 1 na linha blue", "estação 9 na linha red")
+aStar("estação 9 na linha yellow", "estação 5 na linha yellow")
