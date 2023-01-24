@@ -109,9 +109,9 @@ def aStar(start, end):
                 if (f+4) < heap[0][0]:
                     G[end] += 4
                     print("yes")
-                print("G: ", G[end])
+                print("G: ", f"{G[end]} minutes")
                 path = find_path(P, end)
-                print(path)
+                print("path: ", [x+1 for x in path])
                 return(P, G)
             else:
                 heap_update(heap, (f+4, u, end_color))
