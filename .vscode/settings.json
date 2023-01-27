@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "istream": "cpp",
+    "optional": "cpp",
+    "ostream": "cpp",
+    "ratio": "cpp",
+    "system_error": "cpp",
+    "type_traits": "cpp",
+    "variant": "cpp",
+    "iostream": "cpp"
+  }
+}
