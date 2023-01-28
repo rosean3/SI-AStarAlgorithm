@@ -13,12 +13,10 @@ line_colors = [["azul"], ["azul", "amarelo"], ["azul", "vermelho"], ["azul", "ve
 def define_color(v: int, u: int, u_color: str)-> str:
     """
     Define a cor da linha atual de v, de acordo com a cor da linha atual de u, e as cores das possíveis linhas de v
-
     Parâmetros:
     v (int): a estação vizinha.
     u (int): a estação atual.
     u_color: cor da linha atual de u
-
     Retorna:
     str: cor da linha atual de v
     """
@@ -91,11 +89,9 @@ def getAvailableCities(current): #retorna todas as cidades conectadas a cidade a
 def find_path(P: list, end: int) -> list: 
     """
     Encontra o caminho de uma estação a outra, considerando as baldeações.
-
     Parâmetros:
     P: (pai, cor da estação atual)[]
     end: estação final
-
     Retorna:
     path: [(1ª estação, cor da linha), (2ª estação, cor da linha), ...].
     """
@@ -119,11 +115,9 @@ def find_path(P: list, end: int) -> list:
 def aStar(start: str, end: str) -> tuple:
     """
     Algoritmo A* para encontrar o caminho mais rápido entre duas estações.
-
     Parâmetros:
     start: estação inicial no formato "estação {nº da estação} na linha {cor}"
     end: estação final no formato "estação {nº da estação} na linha {cor}"
-
     Retorna:
     uma dupla no formato
     (
@@ -138,6 +132,20 @@ def aStar(start: str, end: str) -> tuple:
     end = end.split(' ')
     end_color = end[-1]
     end = int(end[1]) - 1
+
+    # ? checa se o input é válido
+    if start < 0 or start > number_of_stations - 1:
+        print('Número da estação inicial não existente')
+        return
+    if start_color not in line_colors[start]:
+        print('A estação inicial não possui essa linha')
+        return
+    if end < 0 or end > number_of_stations - 1:
+        print('Número da estação de destino não existente')
+        return
+    if end_color not in line_colors[end]:
+        print('A estação de destino não possui essa linha')
+        return
 
     # ? inicializando listas
     G = [99999] * number_of_stations # guarda a distância do start até cada estação até o momento
@@ -191,4 +199,4 @@ def aStar(start: str, end: str) -> tuple:
                 heap.heap_add(F[v], v, v_color)
 
 get_distances()
-aStar("estação 9 na linha amarelo", "estação 5 na linha amarelo")
+aStar("estação 9 na linha amarelo", "estação 5na linha amarelo")
