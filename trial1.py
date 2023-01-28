@@ -1,4 +1,3 @@
-
 # ! dentro do algoritmo Astar, a estação 0 é a 1, a 1 é a 2, a 2 é a 3 etc.
 
 direct_distances = []
@@ -47,39 +46,33 @@ def heap_update(heap: list, item:tuple):
                     heap.sort(key=lambda x: x[0])
                 break
     
+def get_distances(): #cria matrizes de distancia
+    direct_text = open("paris-direct.txt", 'r')
+    for line in direct_text:
+        row = line.split(',')
+        row = list(map(float, row)) #transforma em lista de floats
 
-def makearray(): #cria matrizes de distancia
-    file1 = open("paris-direct.txt", 'r')
-    for string in file1:
-        row = string.split(',')
-        for i in range(len(row)):
-            row[i] = float(row[i])
-        direct_distances.append(row)        
-    file2 = open("paris-connect.txt", 'r')
-    for string in file2:
-        row = string.split(',')
-        for i in range(len(row)):
-            row[i] = float(row[i])
+        direct_distances.append(row)
+    
+    connect_text = open("paris-connect.txt", 'r')
+    for line in connect_text:
+        row = line.split(',')
+        row = list(map(float, row)) #transforma em lista de floats
+        
         real_distances.append(row)
 
 def get_g(start, goal): # funcao para calcular g(n) => tempo em minutos sem contar baldiação
-    s1 = start.split('E')
-    s1 = int(s1[1]) - 1
-    s2 = goal.split('E')
-    s2 = int(s2[1]) - 1
-    if s1 > s2:
-        s1, s2 = s2, s1
-    g = real_distances[s1][s2] 
+    node1 = start if start < goal else goal
+    node2 = goal if start < goal else start
+
+    g = real_distances[node1][node2] 
     return g*2 # como o trem vai a 30km/h a distância g em km * 2 é igual ao tempo em minutos
 
 def get_h(start, goal): #funcao para calcular h(n) => tempo em minutos sem contar baldiação
-    s1 = start.split('E')
-    s1 = int(s1[1]) - 1
-    s2 = goal.split('E')
-    s2 = int(s2[1]) - 1
-    if s1 > s2:
-        s1, s2 = s2, s1
-    h = direct_distances[s1][s2]
+    node1 = start if start < goal else goal
+    node2 = goal if start < goal else start
+
+    h = direct_distances[node1][node2]
     return h*2 # como o trem vai a 30km/h a distância h em km * 2 é igual ao tempo em minutos
 
 def getAvailableCities(current): #retorna todas as cidades conectadas a cidade atual
@@ -118,7 +111,6 @@ def find_path(P: list, end: int) -> list:
 
         if(prevColor != color and aux != -1 ):  #repete a estação e muda a cor caso tenha baldeação
             path.append((aux+1, prevColor)) #estação anterior, cor da estação atual
-        
         
     return path[::-1]
 
@@ -181,7 +173,7 @@ def aStar(start: str, end: str) -> tuple:
         neighboring_nodes = getAvailableCities(u)
         
         for v in neighboring_nodes:
-            g = get_g("E" + str(u + 1), "E" + str(v + 1))
+            g = get_g(u, v)
             transhipment = 4 if u_color not in line_colors[v] else 0 # decide se vai ter baldeação ou não => se sim, o valor será 4, se não, 0
 
             if G[u] + g + transhipment < G[v]:
@@ -189,9 +181,9 @@ def aStar(start: str, end: str) -> tuple:
 
                 P[v] = (u, v_color) # (pai, cor atual)
                 G[v] = G[u] + g + transhipment
-                F[v] = G[v] + get_h("E" + str(v + 1), "E" + str(end+1))
+                F[v] = G[v] + get_h(v, end)
              
                 heap_update(heap, (F[v], v, v_color))
 
-makearray()
+get_distances()
 aStar("estação 9 na linha amarelo", "estação 5 na linha amarelo")
