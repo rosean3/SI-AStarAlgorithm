@@ -1,0 +1,17 @@
+#python trial1_heap.py < in.txt > out.txt
+
+sts = []
+for i in range(21):
+    sts.append(input()) 
+
+for st in sts:
+    print(st.upper() + ':\n')
+    dests = sts.copy()
+    dests.remove(st)
+
+    for dest in dests:
+        makearray()
+        print("PARA " + dest.upper() + ":")
+        aStar(st, dest)
+        print()
+    print('************************************************************')

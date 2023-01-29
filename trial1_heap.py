@@ -199,4 +199,4 @@ def aStar(start: str, end: str) -> tuple:
                 heap.heap_add(F[v], v, v_color)
 
 get_distances()
-aStar("estação 9 na linha amarelo", "estação 5na linha amarelo")
+aStar("estação 5 na linha amarelo", "estação 8 na linha verde")
