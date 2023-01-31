@@ -5,9 +5,9 @@ real_distances = []
 number_of_stations = 14
 
 # ? cores das linhas de cada estação
-line_colors = [["azul"], ["azul", "amarelo"], ["azul", "vermelho"], ["azul", "verde"], ["azul", "amarelo"],
-["azul"], ["amarelo"], ["amarelo", "verde"], ["amarelo", "vermelho"], ["amarelo"], ["vermelho"],
-["verde"], ["vermelho", "verde"], ["verde"]]
+line_colors = [["azul"], ["azul", "amarela"], ["azul", "vermelha"], ["azul", "verde"], ["azul", "amarela"],
+["azul"], ["amarela"], ["amarela", "verde"], ["amarela", "vermelha"], ["amarela"], ["vermelha"],
+["verde"], ["vermelha", "verde"], ["verde"]]
 
 def heap_insert(heap: list, item: tuple):
     heap.append(item)
@@ -186,5 +186,5 @@ def aStar(start: str, end: str) -> tuple:
                 heap_update(heap, (F[v], v, v_color))
 
 get_distances()
-aStar("estação 12 na linha verde", "estação 5 na linha amarelo")
-#aStar("estação 5 na linha amarelo", "estação 12 na linha verde")
+aStar("estação 12 na linha verde", "estação 5 na linha amarela")
+aStar("estação 5 na linha amarela", "estação 12 na linha verde")
