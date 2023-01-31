@@ -13,6 +13,9 @@ def heap_insert(heap: list, item: tuple):
     heap.append(item)
     heap.sort(key=lambda x: x[0])
 
+def zero_or_one(node, node_color):
+    return line_colors[node].index(node_color)
+
 def define_color(v: int, u: int, u_color: str)-> str:
     """
     Define a cor da linha atual de v, de acordo com a cor da linha atual de u, e as cores das possíveis linhas de v
@@ -33,14 +36,14 @@ def define_color(v: int, u: int, u_color: str)-> str:
                 return c
 
 def heap_update(heap: list, item:tuple):
-    nodes = [x[1] for x in heap]
+    nodesColors = [(x[1], x[2]) for x in heap]
     (f, node, color) = item
-    if node not in nodes:
+    if (node, color) not in nodesColors:
         heap.append(item)
         heap.sort(key=lambda x: x[0])
     else:
         for i in range(len(heap)):
-            if heap[i][1] == node:
+            if heap[i][1] == node and heap[i][2] == color:
                 if f < heap[i][0]:
                     heap[i] = item
                     heap.sort(key=lambda x: x[0])
@@ -87,7 +90,7 @@ def getAvailableCities(current): #retorna todas as cidades conectadas a cidade a
             availableCities.append(city)
     return availableCities
 
-def find_path(P: list, end: int) -> list: 
+def find_path(P: list, end: int, end_color) -> list: 
     """
     Encontra o caminho de uma estação a outra, considerando as baldeações.
 
@@ -98,19 +101,20 @@ def find_path(P: list, end: int) -> list:
     Retorna:
     path: [(1ª estação, cor da linha), (2ª estação, cor da linha), ...].
     """
+    curNode = end
+    curColor = end_color
     path = []
-    aux = end
-    color = P[aux][1] #cor da estação atual
     
-    while aux != -1:
-        path.append((aux+1, color)) #estação atual, cor da estação atual
-        
-        aux = P[aux][0] #estação anterior
-        prevColor = color
-        color = P[aux][1] #cor da estação anterior
+    while curNode != -1:
+        path.append((curNode+1, curColor))
 
-        if(prevColor != color and aux != -1 ):  #repete a estação e muda a cor caso tenha baldeação
-            path.append((aux+1, prevColor)) #estação anterior, cor da estação atual
+        fatherNode, fatherColor = P[zero_or_one(curNode, curColor)][curNode]
+
+        if fatherColor != curColor and fatherNode != curNode and fatherNode != -1: # se houve baldeação
+            path.append((fatherNode+1, curColor))  # adicionar baldeação
+        
+        curNode = fatherNode
+        curColor = fatherColor
         
     return path[::-1]
 
@@ -138,31 +142,28 @@ def aStar(start: str, end: str) -> tuple:
     end = int(end[1]) - 1
 
     # ? inicializando listas
-    G = [99999] * number_of_stations # guarda a distância do start até cada estação até o momento
-    F = [99999] * number_of_stations # guarda f = g(n) + h(n) para cada estação até o momento
-    P = [(-1, None)] * number_of_stations # guarda (estação anterior, cor da estação atual)
+    G = [[99999] * number_of_stations, [99999] *number_of_stations] # guarda a distância do start até cada estação até o momento
+    P = [[(-1, None)] * number_of_stations, [(-1, None)] *number_of_stations] # guarda (estação anterior, cor da estação atual)
 
     # ? inicializando os valores de start nas listas
-    P[start]= (-1, start_color)
-    G[start] = 0
-    F[start] = 0
+    P[zero_or_one(start, start_color)][start]= (-1, start_color)
+    G[zero_or_one(start, start_color)][start] = 0
 
     # ? inicializando a heap
     heap = []
-    heap_insert(heap, (F[start], start, start_color))
+    heap_insert(heap, (0, start, start_color))
 
     for i in range(number_of_stations):
         (f, u, u_color) = heap.pop(0) # escolhe a estação com menor f(n) e a remove da heap
         if (u == end):
             if u_color == end_color or (f+4) < heap[0][0]: # ou vc já chegou na estação com a cor certa, ou o tempo pra baldear ainda é curto o suficiente pra essa ser a melhor opção
-                
-                path = find_path(P, end)
-
                 if u_color != end_color:
-                    path.append((end+1, end_color))     #adiciona mais uma baldeação no caminho
-                    G[end] += 4                        #adiciona o tempo da baldeação (4 min)
+                    P[zero_or_one(end, end_color)][end] = (end, u_color)
+                    G[zero_or_one(end, end_color)][end] += 4   #adiciona o tempo da baldeação (4 min)
                 
-                print(f"G: {G[end]} minutos")
+                path = find_path(P, end, end_color)     
+                
+                print(f"G: {G[zero_or_one(end, end_color)][end]} minutos")
                 print(path)
 
                 return(P, G)
@@ -175,15 +176,15 @@ def aStar(start: str, end: str) -> tuple:
         for v in neighboring_nodes:
             g = get_g(u, v)
             transhipment = 4 if u_color not in line_colors[v] else 0 # decide se vai ter baldeação ou não => se sim, o valor será 4, se não, 0
+            v_color = define_color(v, u, u_color)
 
-            if G[u] + g + transhipment < G[v]:
-                v_color = define_color(v, u, u_color)
+            if G[zero_or_one(u, u_color)][u] + g + transhipment < G[zero_or_one(v, v_color)][v]:
 
-                P[v] = (u, v_color) # (pai, cor atual)
-                G[v] = G[u] + g + transhipment
-                F[v] = G[v] + get_h(v, end)
-             
-                heap_update(heap, (F[v], v, v_color))
+                P[zero_or_one(v, v_color)][v] = (u, u_color) # (pai, cor do pai)
+                G[zero_or_one(v, v_color)][v] = G[zero_or_one(u, u_color)][u] + g + transhipment
+                f = G[zero_or_one(v, v_color)][v] + get_h(v, end)
+
+                heap_update(heap, (f, v, v_color))
 
 get_distances()
 aStar("estação 12 na linha verde", "estação 5 na linha amarela")
