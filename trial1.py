@@ -9,10 +9,6 @@ line_colors = [["azul"], ["azul", "amarela"], ["azul", "vermelha"], ["azul", "ve
 ["azul"], ["amarela"], ["amarela", "verde"], ["amarela", "vermelha"], ["amarela"], ["vermelha"],
 ["verde"], ["vermelha", "verde"], ["verde"]]
 
-def heap_insert(heap: list, item: tuple):
-    heap.append(item)
-    heap.sort(key=lambda x: x[0])
-
 def zero_or_one(node, node_color):
     return line_colors[node].index(node_color)
 
@@ -150,7 +146,7 @@ def aStar(start: str, end: str) -> tuple:
 
     # ? inicializando a heap
     heap = []
-    heap_insert(heap, (0, start, start_color))
+    heap.append((0, start, start_color))
 
     while True:
         (f, u, u_color) = heap.pop(0) # escolhe a estação com menor f(n) e a remove da heap
@@ -190,7 +186,7 @@ def aStar(start: str, end: str) -> tuple:
                 heap_update(heap, (f, v, v_color))
 
 get_distances()
-#aStar("estação 1 na linha azul", "estação 2 na linha azul")
+#aStar("estação 12 na linha verde", "estação 5 na linha amarela")
 #aStar("estação 5 na linha amarela", "estação 12 na linha verde")
 
 sts = []
@@ -198,7 +194,7 @@ for i in range(21):
     sts.append(input()) 
 
 for st in sts:
-    print(st.upper() + ':\n')
+    print(st + ':\n')
     dests = sts.copy()
     dests.remove(st)
     get_distances()

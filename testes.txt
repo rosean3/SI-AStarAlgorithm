@@ -1,5 +1,7 @@
 python trial1_heap.py < in.txt > out.txt
 python trial1.py < in.txt > out.txt
+python trial1.py < in.txt > out2.txt
+python trial1_heap.py < in.txt > out2.txt
 
 sts = []
 for i in range(21):
