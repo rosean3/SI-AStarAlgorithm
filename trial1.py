@@ -145,8 +145,7 @@ def aStar(start: str, end: str) -> tuple:
     G = [[99999] * number_of_stations, [99999] *number_of_stations] # guarda a distância do start até cada estação até o momento
     P = [[(-1, None)] * number_of_stations, [(-1, None)] *number_of_stations] # guarda (estação anterior, cor da estação atual)
 
-    # ? inicializando os valores de start nas listas
-    P[zero_or_one(start, start_color)][start]= (-1, None)
+    # ? inicializando o valor de start na lista
     G[zero_or_one(start, start_color)][start] = 0
 
     # ? inicializando a heap
@@ -157,20 +156,21 @@ def aStar(start: str, end: str) -> tuple:
         (f, u, u_color) = heap.pop(0) # escolhe a estação com menor f(n) e a remove da heap
         if (u == end):
             if u_color == end_color or (f+4) < heap[0][0]: # ou vc já chegou na estação com a cor certa, ou o tempo pra baldear ainda é curto o suficiente pra essa ser a melhor opção
-                if u_color != end_color: # tem que baldear
+                if u_color != end_color:
                     P[zero_or_one(end, end_color)][end] = (end, u_color)
                     G[zero_or_one(end, end_color)][end] = G[zero_or_one(end, u_color)][end] + 4   #adiciona o tempo da baldeação (4 min)
                 
-                path = find_path(P, end, end_color)
+                path = find_path(P, end, end_color)     
                 
                 print(f"G: {G[zero_or_one(end, end_color)][end]} minutos")
                 print(path)
 
                 return(P, G)
             else:
-                P[zero_or_one(end, end_color)][end] = (end, u_color)
-                G[zero_or_one(end, end_color)][end] = G[zero_or_one(end, u_color)][end] + 4
-                heap_update(heap, (f+4, u, end_color)) # atualiza o tempo para chegar no nó final e o adiciona à heap - # ! isso porque você só encontrou o caminho se o f(h) até o nó final for o menor possível (se for o primeiro elemento da heap)
+                if G[zero_or_one(end, u_color)][end] + 4 < G[zero_or_one(end, end_color)][end]: # se valer a pena a baldeação:
+                    P[zero_or_one(end, end_color)][end] = (end, u_color)
+                    G[zero_or_one(end, end_color)][end] = G[zero_or_one(end, u_color)][end] + 4
+                    heap_update(heap, (f+4, u, end_color))  # atualiza o tempo para chegar no nó final e o adiciona à heap - # ! isso porque você só encontrou o caminho se o f(h) até o nó final for o menor possível (se for o primeiro elemento da heap)
                 continue
 
         neighboring_nodes = getAvailableCities(u)
@@ -189,5 +189,5 @@ def aStar(start: str, end: str) -> tuple:
                 heap_update(heap, (f, v, v_color))
 
 get_distances()
-aStar("estação 2 na linha azul", "estação 8 na linha verde")
-aStar("estação 8 na linha verde", "estação 2 na linha azul")
+aStar("estação 12 na linha verde", "estação 5 na linha amarela")
+aStar("estação 5 na linha amarela", "estação 12 na linha verde")
