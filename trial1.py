@@ -154,13 +154,14 @@ def aStar(start: str, end: str) -> tuple:
 
     while True:
         (f, u, u_color) = heap.pop(0) # escolhe a estação com menor f(n) e a remove da heap
+        new_root = 0 if len(heap) == 0 else heap[0][0]
         if (u == end):
-            if u_color == end_color or (f+4) < heap[0][0]: # ou vc já chegou na estação com a cor certa, ou o tempo pra baldear ainda é curto o suficiente pra essa ser a melhor opção
+            if u_color == end_color or (f+4) < new_root: # ou vc já chegou na estação com a cor certa, ou o tempo pra baldear ainda é curto o suficiente pra essa ser a melhor opção
                 if u_color != end_color:
                     P[zero_or_one(end, end_color)][end] = (end, u_color)
                     G[zero_or_one(end, end_color)][end] = G[zero_or_one(end, u_color)][end] + 4   #adiciona o tempo da baldeação (4 min)
                 
-                path = find_path(P, end, end_color)     
+                path = find_path(P, end, end_color)
                 
                 print(f"G: {G[zero_or_one(end, end_color)][end]} minutos")
                 print(path)
@@ -189,5 +190,21 @@ def aStar(start: str, end: str) -> tuple:
                 heap_update(heap, (f, v, v_color))
 
 get_distances()
-aStar("estação 12 na linha verde", "estação 5 na linha amarela")
-aStar("estação 5 na linha amarela", "estação 12 na linha verde")
+#aStar("estação 1 na linha azul", "estação 2 na linha azul")
+#aStar("estação 5 na linha amarela", "estação 12 na linha verde")
+
+sts = []
+for i in range(21):
+    sts.append(input()) 
+
+for st in sts:
+    print(st.upper() + ':\n')
+    dests = sts.copy()
+    dests.remove(st)
+    get_distances()
+    for dest in dests:
+        print("para " + dest + ":")
+        
+        aStar(st, dest)
+        print()
+    print('************************************************************')
