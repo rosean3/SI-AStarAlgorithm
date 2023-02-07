@@ -1,1743 +1,1743 @@
-ESTAÇÃO 1 NA LINHA AZUL:
+estação 1 na linha azul:
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 20.0 minutos
 [(1, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 24.0 minutos
-[(1, 'azul'), (2, 'azul'), (2, 'amarelo')]
+[(1, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 41.0 minutos
-[(1, 'azul'), (2, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(1, 'azul'), (2, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 37.0 minutos
 [(1, 'azul'), (2, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 49.6 minutos
 [(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 53.6 minutos
 [(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 75.6 minutos
 [(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 79.6 minutos
-[(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 81.6 minutos
 [(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 84.39999999999999 minutos
-[(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 63.2 minutos
-[(1, 'azul'), (2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo')]
+[(1, 'azul'), (2, 'azul'), (2, 'amarela'), (9, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
-G: 63.2 minutos
-[(1, 'azul'), (2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo')]
+para estação 8 na linha verde:
+G: 67.2 minutos
+[(1, 'azul'), (2, 'azul'), (2, 'amarela'), (9, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 44.0 minutos
-[(1, 'azul'), (2, 'azul'), (2, 'amarelo'), (9, 'amarelo')]
+[(1, 'azul'), (2, 'azul'), (2, 'amarela'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 48.0 minutos
-[(1, 'azul'), (2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (9, 'vermelho')]
+[(1, 'azul'), (2, 'azul'), (2, 'amarela'), (9, 'amarela'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 31.0 minutos
-[(1, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(1, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 72.4 minutos
-[(1, 'azul'), (2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (11, 'vermelho')]
+[(1, 'azul'), (2, 'azul'), (2, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 80.0 minutos
-[(1, 'azul'), (2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(1, 'azul'), (2, 'azul'), (2, 'amarela'), (9, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
-G: 82.4 minutos
-[(1, 'azul'), (2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde')]
+para estação 13 na linha verde:
+G: 79.2 minutos
+[(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 78.4 minutos
-[(1, 'azul'), (2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho')]
+[(1, 'azul'), (2, 'azul'), (3, 'azul'), (3, 'vermelha'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
-G: 92.60000000000001 minutos
-[(1, 'azul'), (2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+para estação 14 na linha verde:
+G: 89.4 minutos
+[(1, 'azul'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 2 NA LINHA AZUL:
+estação 2 na linha azul:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 20.0 minutos
 [(2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 4 minutos
-[(2, 'azul'), (2, 'amarelo')]
+[(2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 21.0 minutos
-[(2, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(2, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 17.0 minutos
 [(2, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 29.6 minutos
 [(2, 'azul'), (3, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 33.6 minutos
 [(2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 55.6 minutos
 [(2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 59.6 minutos
-[(2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 61.6 minutos
 [(2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 64.4 minutos
-[(2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 43.2 minutos
-[(2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo')]
+[(2, 'azul'), (2, 'amarela'), (9, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
-G: 43.2 minutos
-[(2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo')]
+para estação 8 na linha verde:
+G: 47.2 minutos
+[(2, 'azul'), (2, 'amarela'), (9, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 24.0 minutos
-[(2, 'azul'), (2, 'amarelo'), (9, 'amarelo')]
+[(2, 'azul'), (2, 'amarela'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 28.0 minutos
-[(2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (9, 'vermelho')]
+[(2, 'azul'), (2, 'amarela'), (9, 'amarela'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 11.0 minutos
-[(2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 52.4 minutos
-[(2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (11, 'vermelho')]
+[(2, 'azul'), (2, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 60.0 minutos
-[(2, 'azul'), (2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(2, 'azul'), (2, 'amarela'), (9, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
-G: 62.4 minutos
-[(2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde')]
+para estação 13 na linha verde:
+G: 59.2 minutos
+[(2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 58.4 minutos
-[(2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho')]
+[(2, 'azul'), (3, 'azul'), (3, 'vermelha'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
-G: 72.6 minutos
-[(2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+para estação 14 na linha verde:
+G: 69.4 minutos
+[(2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 2 NA LINHA AMARELO:
+estação 2 na linha amarela:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 24.0 minutos
-[(2, 'amarelo'), (2, 'azul'), (1, 'azul')]
+[(2, 'amarela'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 4 minutos
-[(2, 'amarelo'), (2, 'azul')]
+[(2, 'amarela'), (2, 'azul')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 25.0 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 21.0 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul')]
+[(2, 'amarela'), (2, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 33.6 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul')]
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 37.6 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 59.6 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
-G: 59.6 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
+para estação 5 na linha amarela:
+G: 63.6 minutos
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 65.6 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 68.4 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 39.2 minutos
-[(2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo')]
+[(2, 'amarela'), (9, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 43.2 minutos
-[(2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde')]
+[(2, 'amarela'), (9, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 20.0 minutos
-[(2, 'amarelo'), (9, 'amarelo')]
+[(2, 'amarela'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 24.0 minutos
-[(2, 'amarelo'), (9, 'amarelo'), (9, 'vermelho')]
+[(2, 'amarela'), (9, 'amarela'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 7.0 minutos
-[(2, 'amarelo'), (10, 'amarelo')]
+[(2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 48.4 minutos
-[(2, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (11, 'vermelho')]
+[(2, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 56.0 minutos
-[(2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(2, 'amarela'), (9, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
+G: 63.2 minutos
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
+
+para estação 13 na linha vermelha:
 G: 62.4 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho')]
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (3, 'vermelha'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
-G: 62.4 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho')]
-
-PARA ESTAÇÃO 14 NA LINHA VERDE:
-G: 76.6 minutos
-[(2, 'amarelo'), (2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+para estação 14 na linha verde:
+G: 73.4 minutos
+[(2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 3 NA LINHA VERMELHO:
+estação 3 na linha vermelha:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 41.0 minutos
-[(3, 'vermelho'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
+[(3, 'vermelha'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 21.0 minutos
-[(3, 'vermelho'), (3, 'azul'), (2, 'azul')]
+[(3, 'vermelha'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 25.0 minutos
-[(3, 'vermelho'), (3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+[(3, 'vermelha'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 4 minutos
-[(3, 'vermelho'), (3, 'azul')]
+[(3, 'vermelha'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 16.6 minutos
-[(3, 'vermelho'), (3, 'azul'), (4, 'azul')]
+[(3, 'vermelha'), (3, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 20.6 minutos
-[(3, 'vermelho'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
+[(3, 'vermelha'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 42.6 minutos
-[(3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
+[(3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 46.6 minutos
-[(3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 48.6 minutos
-[(3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
+[(3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 51.4 minutos
-[(3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 42.0 minutos
-[(3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo')]
+[(3, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 46.0 minutos
-[(3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde')]
+[(3, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 22.8 minutos
-[(3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 18.8 minutos
-[(3, 'vermelho'), (9, 'vermelho')]
+[(3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 32.0 minutos
-[(3, 'vermelho'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(3, 'vermelha'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 43.2 minutos
-[(3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 58.8 minutos
-[(3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(3, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
+G: 41.4 minutos
+[(3, 'vermelha'), (13, 'vermelha'), (13, 'verde')]
+
+para estação 13 na linha vermelha:
 G: 37.4 minutos
-[(3, 'vermelho'), (13, 'vermelho')]
+[(3, 'vermelha'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
-G: 37.4 minutos
-[(3, 'vermelho'), (13, 'vermelho')]
-
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 51.599999999999994 minutos
-[(3, 'vermelho'), (13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+[(3, 'vermelha'), (13, 'vermelha'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 3 NA LINHA AZUL:
+estação 3 na linha azul:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 37.0 minutos
 [(3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 17.0 minutos
 [(3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 21.0 minutos
-[(3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+[(3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 4 minutos
-[(3, 'azul'), (3, 'vermelho')]
+[(3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 12.6 minutos
 [(3, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 16.6 minutos
 [(3, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 38.6 minutos
 [(3, 'azul'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 42.6 minutos
-[(3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 44.6 minutos
 [(3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 47.4 minutos
-[(3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 46.0 minutos
-[(3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo')]
+[(3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
-G: 46.0 minutos
-[(3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo')]
-
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
-G: 26.8 minutos
-[(3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
-
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
-G: 22.8 minutos
-[(3, 'azul'), (3, 'vermelho'), (9, 'vermelho')]
-
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
-G: 28.0 minutos
-[(3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
-
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 8 na linha verde:
 G: 47.2 minutos
-[(3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(3, 'azul'), (4, 'azul'), (4, 'verde'), (8, 'verde')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
-G: 62.8 minutos
-[(3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+para estação 9 na linha amarela:
+G: 26.8 minutos
+[(3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
-G: 45.4 minutos
-[(3, 'azul'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde')]
+para estação 9 na linha vermelha:
+G: 22.8 minutos
+[(3, 'azul'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 10 na linha amarela:
+G: 28.0 minutos
+[(3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
+
+para estação 11 na linha vermelha:
+G: 47.2 minutos
+[(3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
+
+para estação 12 na linha verde:
+G: 60.0 minutos
+[(3, 'azul'), (4, 'azul'), (4, 'verde'), (8, 'verde'), (12, 'verde')]
+
+para estação 13 na linha verde:
+G: 42.2 minutos
+[(3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
+
+para estação 13 na linha vermelha:
 G: 41.4 minutos
-[(3, 'azul'), (3, 'vermelho'), (13, 'vermelho')]
+[(3, 'azul'), (3, 'vermelha'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
-G: 55.599999999999994 minutos
-[(3, 'azul'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+para estação 14 na linha verde:
+G: 52.400000000000006 minutos
+[(3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 4 NA LINHA AZUL:
+estação 4 na linha azul:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 49.6 minutos
 [(4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 29.6 minutos
 [(4, 'azul'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 33.6 minutos
-[(4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+[(4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 16.6 minutos
-[(4, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(4, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 12.6 minutos
 [(4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 4 minutos
 [(4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 26.0 minutos
 [(4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 30.0 minutos
-[(4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 32.0 minutos
 [(4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 34.8 minutos
-[(4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 38.6 minutos
-[(4, 'azul'), (4, 'verde'), (8, 'verde'), (8, 'amarelo')]
+[(4, 'azul'), (4, 'verde'), (8, 'verde'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 34.6 minutos
 [(4, 'azul'), (4, 'verde'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 39.4 minutos
-[(4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 35.4 minutos
-[(4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho')]
+[(4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 40.6 minutos
-[(4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 59.8 minutos
-[(4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 47.400000000000006 minutos
 [(4, 'azul'), (4, 'verde'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 29.6 minutos
 [(4, 'azul'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 33.6 minutos
-[(4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelho')]
+[(4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 39.8 minutos
 [(4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 4 NA LINHA VERDE:
+estação 4 na linha verde:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 53.6 minutos
 [(4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 33.6 minutos
 [(4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 37.6 minutos
-[(4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+[(4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 20.6 minutos
-[(4, 'verde'), (4, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(4, 'verde'), (4, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 16.6 minutos
 [(4, 'verde'), (4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 4 minutos
 [(4, 'verde'), (4, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 30.0 minutos
 [(4, 'verde'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 34.0 minutos
-[(4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 36.0 minutos
 [(4, 'verde'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 38.8 minutos
-[(4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 34.6 minutos
-[(4, 'verde'), (8, 'verde'), (8, 'amarelo')]
+[(4, 'verde'), (8, 'verde'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 30.6 minutos
 [(4, 'verde'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 43.400000000000006 minutos
-[(4, 'verde'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(4, 'verde'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 39.400000000000006 minutos
-[(4, 'verde'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho')]
+[(4, 'verde'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 44.6 minutos
-[(4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 63.800000000000004 minutos
-[(4, 'verde'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(4, 'verde'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 43.400000000000006 minutos
 [(4, 'verde'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 25.6 minutos
 [(4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 29.6 minutos
-[(4, 'verde'), (13, 'verde'), (13, 'vermelho')]
+[(4, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 35.8 minutos
 [(4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 5 NA LINHA AZUL:
+estação 5 na linha azul:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 75.6 minutos
 [(5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 55.6 minutos
 [(5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 59.6 minutos
-[(5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+[(5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 42.6 minutos
-[(5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 38.6 minutos
 [(5, 'azul'), (4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 26.0 minutos
 [(5, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 30.0 minutos
 [(5, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 4 minutos
-[(5, 'azul'), (5, 'amarelo')]
+[(5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 6.0 minutos
 [(5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 8.8 minutos
-[(5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
+G: 64.0 minutos
+[(5, 'azul'), (5, 'amarela'), (8, 'amarela')]
+
+para estação 8 na linha verde:
 G: 60.6 minutos
 [(5, 'azul'), (4, 'azul'), (4, 'verde'), (8, 'verde')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
-G: 60.6 minutos
-[(5, 'azul'), (4, 'azul'), (4, 'verde'), (8, 'verde')]
-
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 65.4 minutos
-[(5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 61.400000000000006 minutos
-[(5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho')]
+[(5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 66.6 minutos
-[(5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 85.80000000000001 minutos
-[(5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 73.4 minutos
 [(5, 'azul'), (4, 'azul'), (4, 'verde'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 55.6 minutos
 [(5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 59.6 minutos
-[(5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelho')]
+[(5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 65.8 minutos
 [(5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 5 NA LINHA AMARELO:
+estação 5 na linha amarela:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 79.6 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 59.6 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 63.6 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 46.6 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 42.6 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 30.0 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 34.0 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (4, 'verde')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 4 minutos
-[(5, 'amarelo'), (5, 'azul')]
+[(5, 'amarela'), (5, 'azul')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 10.0 minutos
-[(5, 'amarelo'), (5, 'azul'), (6, 'azul')]
+[(5, 'amarela'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 4.8 minutos
-[(5, 'amarelo'), (7, 'amarelo')]
+[(5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 60.0 minutos
-[(5, 'amarelo'), (8, 'amarelo')]
+[(5, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 64.0 minutos
-[(5, 'amarelo'), (8, 'amarelo'), (8, 'verde')]
+[(5, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 69.4 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 65.4 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 70.6 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 89.80000000000001 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 76.8 minutos
-[(5, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(5, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 59.6 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 63.6 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelho')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 69.8 minutos
-[(5, 'amarelo'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
+[(5, 'amarela'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 6 NA LINHA AZUL:
+estação 6 na linha azul:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 81.6 minutos
 [(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 61.6 minutos
 [(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 65.6 minutos
-[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 48.6 minutos
-[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 44.6 minutos
 [(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 32.0 minutos
 [(6, 'azul'), (5, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 36.0 minutos
 [(6, 'azul'), (5, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 6.0 minutos
 [(6, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 10.0 minutos
-[(6, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(6, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 14.8 minutos
-[(6, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(6, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
+G: 70.0 minutos
+[(6, 'azul'), (5, 'azul'), (5, 'amarela'), (8, 'amarela')]
+
+para estação 8 na linha verde:
 G: 66.6 minutos
 [(6, 'azul'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (8, 'verde')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
-G: 66.6 minutos
-[(6, 'azul'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (8, 'verde')]
-
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 71.4 minutos
-[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 67.4 minutos
-[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho')]
+[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 72.6 minutos
-[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 91.80000000000001 minutos
-[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(6, 'azul'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 79.39999999999999 minutos
 [(6, 'azul'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 61.6 minutos
 [(6, 'azul'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 65.6 minutos
-[(6, 'azul'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelho')]
+[(6, 'azul'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 71.8 minutos
 [(6, 'azul'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 7 NA LINHA AMARELO:
+estação 7 na linha amarela:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 84.4 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 64.4 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 68.4 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 51.4 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 47.4 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 34.8 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 38.8 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (4, 'verde')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 8.8 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 4.8 minutos
-[(7, 'amarelo'), (5, 'amarelo')]
+[(7, 'amarela'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 14.8 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (6, 'azul')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 64.8 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (8, 'amarelo')]
+[(7, 'amarela'), (5, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 68.8 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (8, 'amarelo'), (8, 'verde')]
+[(7, 'amarela'), (5, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 74.2 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 70.2 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 75.4 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 94.6 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (3, 'azul'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 81.6 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(7, 'amarela'), (5, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 64.4 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 68.4 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelho')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 74.60000000000001 minutos
-[(7, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
+[(7, 'amarela'), (5, 'amarela'), (5, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 8 NA LINHA AMARELO:
+estação 8 na linha amarela:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 63.2 minutos
-[(8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (1, 'azul')]
+[(8, 'amarela'), (9, 'amarela'), (2, 'amarela'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 43.2 minutos
-[(8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul')]
+[(8, 'amarela'), (9, 'amarela'), (2, 'amarela'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 39.2 minutos
-[(8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo')]
+[(8, 'amarela'), (9, 'amarela'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 42.0 minutos
-[(8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho')]
+[(8, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 46.0 minutos
-[(8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul')]
+[(8, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 38.6 minutos
-[(8, 'amarelo'), (8, 'verde'), (4, 'verde'), (4, 'azul')]
+[(8, 'amarela'), (8, 'verde'), (4, 'verde'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 34.6 minutos
-[(8, 'amarelo'), (8, 'verde'), (4, 'verde')]
+[(8, 'amarela'), (8, 'verde'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 64.0 minutos
-[(8, 'amarelo'), (5, 'amarelo'), (5, 'azul')]
+[(8, 'amarela'), (5, 'amarela'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 60.0 minutos
-[(8, 'amarelo'), (5, 'amarelo')]
+[(8, 'amarela'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 70.0 minutos
-[(8, 'amarelo'), (5, 'amarelo'), (5, 'azul'), (6, 'azul')]
+[(8, 'amarela'), (5, 'amarela'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 64.8 minutos
-[(8, 'amarelo'), (5, 'amarelo'), (7, 'amarelo')]
+[(8, 'amarela'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 4 minutos
-[(8, 'amarelo'), (8, 'verde')]
+[(8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 19.2 minutos
-[(8, 'amarelo'), (9, 'amarelo')]
+[(8, 'amarela'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 23.2 minutos
-[(8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho')]
+[(8, 'amarela'), (9, 'amarela'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 46.2 minutos
-[(8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo'), (10, 'amarelo')]
+[(8, 'amarela'), (9, 'amarela'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 47.599999999999994 minutos
-[(8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (11, 'vermelho')]
+[(8, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 16.8 minutos
-[(8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 60.2 minutos
-[(8, 'amarelo'), (8, 'verde'), (4, 'verde'), (13, 'verde')]
+[(8, 'amarela'), (8, 'verde'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
-G: 60.2 minutos
-[(8, 'amarelo'), (8, 'verde'), (4, 'verde'), (13, 'verde')]
+para estação 13 na linha vermelha:
+G: 64.2 minutos
+[(8, 'amarela'), (8, 'verde'), (4, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 70.4 minutos
-[(8, 'amarelo'), (8, 'verde'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
+[(8, 'amarela'), (8, 'verde'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 8 NA LINHA VERDE:
+estação 8 na linha verde:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 67.2 minutos
-[(8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (1, 'azul')]
+[(8, 'verde'), (8, 'amarela'), (9, 'amarela'), (2, 'amarela'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 47.2 minutos
-[(8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul')]
+[(8, 'verde'), (8, 'amarela'), (9, 'amarela'), (2, 'amarela'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 43.2 minutos
-[(8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo')]
+[(8, 'verde'), (8, 'amarela'), (9, 'amarela'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 46.0 minutos
-[(8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho')]
+[(8, 'verde'), (8, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
-G: 50.0 minutos
-[(8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul')]
+para estação 3 na linha azul:
+G: 47.2 minutos
+[(8, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 34.6 minutos
 [(8, 'verde'), (4, 'verde'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 30.6 minutos
 [(8, 'verde'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 60.6 minutos
 [(8, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
-G: 60.6 minutos
-[(8, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul')]
+para estação 5 na linha amarela:
+G: 64.0 minutos
+[(8, 'verde'), (8, 'amarela'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 66.6 minutos
 [(8, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
-G: 65.4 minutos
-[(8, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+para estação 7 na linha amarela:
+G: 68.8 minutos
+[(8, 'verde'), (8, 'amarela'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 4 minutos
-[(8, 'verde'), (8, 'amarelo')]
+[(8, 'verde'), (8, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 23.2 minutos
-[(8, 'verde'), (8, 'amarelo'), (9, 'amarelo')]
+[(8, 'verde'), (8, 'amarela'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 27.2 minutos
-[(8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho')]
+[(8, 'verde'), (8, 'amarela'), (9, 'amarela'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 50.2 minutos
-[(8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo'), (10, 'amarelo')]
+[(8, 'verde'), (8, 'amarela'), (9, 'amarela'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 51.599999999999994 minutos
-[(8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (11, 'vermelho')]
+[(8, 'verde'), (8, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 12.8 minutos
 [(8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 56.2 minutos
 [(8, 'verde'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 60.2 minutos
-[(8, 'verde'), (4, 'verde'), (13, 'verde'), (13, 'vermelho')]
+[(8, 'verde'), (4, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 66.4 minutos
 [(8, 'verde'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 9 NA LINHA AMARELO:
+estação 9 na linha amarela:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 44.0 minutos
-[(9, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (1, 'azul')]
+[(9, 'amarela'), (2, 'amarela'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 24.0 minutos
-[(9, 'amarelo'), (2, 'amarelo'), (2, 'azul')]
+[(9, 'amarela'), (2, 'amarela'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 20.0 minutos
-[(9, 'amarelo'), (2, 'amarelo')]
+[(9, 'amarela'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 22.8 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 26.8 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 39.4 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 43.4 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 65.4 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 69.4 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 71.4 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 74.2 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 19.2 minutos
-[(9, 'amarelo'), (8, 'amarelo')]
+[(9, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 23.2 minutos
-[(9, 'amarelo'), (8, 'amarelo'), (8, 'verde')]
+[(9, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 4 minutos
-[(9, 'amarelo'), (9, 'vermelho')]
+[(9, 'amarela'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 27.0 minutos
-[(9, 'amarelo'), (2, 'amarelo'), (10, 'amarelo')]
+[(9, 'amarela'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 28.4 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (11, 'vermelho')]
+[(9, 'amarela'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 36.0 minutos
-[(9, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(9, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
+G: 64.2 minutos
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (13, 'vermelha'), (13, 'verde')]
+
+para estação 13 na linha vermelha:
 G: 60.2 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (13, 'vermelho')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
-G: 60.2 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (13, 'vermelho')]
-
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 74.4 minutos
-[(9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+[(9, 'amarela'), (9, 'vermelha'), (3, 'vermelha'), (13, 'vermelha'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 9 NA LINHA VERMELHO:
+estação 9 na linha vermelha:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 48.0 minutos
-[(9, 'vermelho'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (1, 'azul')]
+[(9, 'vermelha'), (9, 'amarela'), (2, 'amarela'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 28.0 minutos
-[(9, 'vermelho'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul')]
+[(9, 'vermelha'), (9, 'amarela'), (2, 'amarela'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 24.0 minutos
-[(9, 'vermelho'), (9, 'amarelo'), (2, 'amarelo')]
+[(9, 'vermelha'), (9, 'amarela'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 18.8 minutos
-[(9, 'vermelho'), (3, 'vermelho')]
+[(9, 'vermelha'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 22.8 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (3, 'azul')]
+[(9, 'vermelha'), (3, 'vermelha'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 35.4 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul')]
+[(9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 39.4 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
+[(9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 61.4 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
+[(9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
-G: 61.4 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
+para estação 5 na linha amarela:
+G: 65.4 minutos
+[(9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 67.4 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
+[(9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 70.2 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 23.2 minutos
-[(9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo')]
+[(9, 'vermelha'), (9, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 27.2 minutos
-[(9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde')]
+[(9, 'vermelha'), (9, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 4 minutos
-[(9, 'vermelho'), (9, 'amarelo')]
+[(9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 31.0 minutos
-[(9, 'vermelho'), (9, 'amarelo'), (2, 'amarelo'), (10, 'amarelo')]
+[(9, 'vermelha'), (9, 'amarela'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 24.4 minutos
-[(9, 'vermelho'), (11, 'vermelho')]
+[(9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 40.0 minutos
-[(9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(9, 'vermelha'), (9, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
+G: 60.2 minutos
+[(9, 'vermelha'), (3, 'vermelha'), (13, 'vermelha'), (13, 'verde')]
+
+para estação 13 na linha vermelha:
 G: 56.2 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (13, 'vermelho')]
+[(9, 'vermelha'), (3, 'vermelha'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
-G: 56.2 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (13, 'vermelho')]
-
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 70.4 minutos
-[(9, 'vermelho'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+[(9, 'vermelha'), (3, 'vermelha'), (13, 'vermelha'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 10 NA LINHA AMARELO:
+estação 10 na linha amarela:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 31.0 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (1, 'azul')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 11.0 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 7.0 minutos
-[(10, 'amarelo'), (2, 'amarelo')]
+[(10, 'amarela'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 32.0 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (3, 'vermelho')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 28.0 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 40.6 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 44.6 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 66.6 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 70.6 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 72.6 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 75.39999999999999 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 46.2 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo')]
+[(10, 'amarela'), (2, 'amarela'), (9, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 50.2 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde')]
+[(10, 'amarela'), (2, 'amarela'), (9, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 27.0 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (9, 'amarelo')]
+[(10, 'amarela'), (2, 'amarela'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 31.0 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (9, 'amarelo'), (9, 'vermelho')]
+[(10, 'amarela'), (2, 'amarela'), (9, 'amarela'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 55.4 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (11, 'vermelho')]
+[(10, 'amarela'), (2, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 63.0 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(10, 'amarela'), (2, 'amarela'), (9, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
+G: 70.2 minutos
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde')]
+
+para estação 13 na linha vermelha:
 G: 69.4 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho')]
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (3, 'vermelha'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
-G: 69.4 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho')]
-
-PARA ESTAÇÃO 14 NA LINHA VERDE:
-G: 83.60000000000001 minutos
-[(10, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (3, 'azul'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+para estação 14 na linha verde:
+G: 80.4 minutos
+[(10, 'amarela'), (2, 'amarela'), (2, 'azul'), (3, 'azul'), (4, 'azul'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 11 NA LINHA VERMELHO:
+estação 11 na linha vermelha:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 72.4 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (1, 'azul')]
+[(11, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (2, 'amarela'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 52.4 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul')]
+[(11, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (2, 'amarela'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 48.4 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (2, 'amarelo')]
+[(11, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 43.2 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho')]
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 47.2 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul')]
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 59.800000000000004 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul')]
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 63.800000000000004 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 85.80000000000001 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
-G: 85.80000000000001 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul')]
+para estação 5 na linha amarela:
+G: 89.80000000000001 minutos
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 91.80000000000001 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 94.60000000000001 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 47.599999999999994 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo')]
+[(11, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 51.599999999999994 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde')]
+[(11, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (8, 'amarela'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 28.4 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(11, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 24.4 minutos
-[(11, 'vermelho'), (9, 'vermelho')]
+[(11, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 55.4 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (2, 'amarelo'), (10, 'amarelo')]
+[(11, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 64.39999999999999 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (9, 'amarelo'), (8, 'amarelo'), (8, 'verde'), (12, 'verde')]
+[(11, 'vermelha'), (9, 'vermelha'), (9, 'amarela'), (8, 'amarela'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
+G: 84.6 minutos
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (13, 'vermelha'), (13, 'verde')]
+
+para estação 13 na linha vermelha:
 G: 80.6 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (13, 'vermelho')]
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
-G: 80.6 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (13, 'vermelho')]
-
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 94.8 minutos
-[(11, 'vermelho'), (9, 'vermelho'), (3, 'vermelho'), (13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+[(11, 'vermelha'), (9, 'vermelha'), (3, 'vermelha'), (13, 'vermelha'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 12 NA LINHA VERDE:
+estação 12 na linha verde:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 80.0 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul'), (1, 'azul')]
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (9, 'amarela'), (2, 'amarela'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 60.0 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo'), (2, 'azul')]
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (9, 'amarela'), (2, 'amarela'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
+para estação 2 na linha amarela:
 G: 56.0 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo')]
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (9, 'amarela'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 58.8 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho')]
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
-G: 62.8 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (3, 'vermelho'), (3, 'azul')]
+para estação 3 na linha azul:
+G: 60.00000000000001 minutos
+[(12, 'verde'), (8, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 47.400000000000006 minutos
 [(12, 'verde'), (8, 'verde'), (4, 'verde'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 43.400000000000006 minutos
 [(12, 'verde'), (8, 'verde'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 73.4 minutos
 [(12, 'verde'), (8, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
-G: 73.4 minutos
-[(12, 'verde'), (8, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul')]
+para estação 5 na linha amarela:
+G: 76.8 minutos
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 79.4 minutos
 [(12, 'verde'), (8, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
-G: 78.2 minutos
-[(12, 'verde'), (8, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+para estação 7 na linha amarela:
+G: 81.6 minutos
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 16.8 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo')]
+[(12, 'verde'), (8, 'verde'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 12.8 minutos
 [(12, 'verde'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 36.0 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo'), (9, 'amarelo')]
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 40.0 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho')]
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (9, 'amarela'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 63.0 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (2, 'amarelo'), (10, 'amarelo')]
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (9, 'amarela'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 64.4 minutos
-[(12, 'verde'), (8, 'verde'), (8, 'amarelo'), (9, 'amarelo'), (9, 'vermelho'), (11, 'vermelho')]
+[(12, 'verde'), (8, 'verde'), (8, 'amarela'), (9, 'amarela'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 69.0 minutos
 [(12, 'verde'), (8, 'verde'), (4, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 73.0 minutos
-[(12, 'verde'), (8, 'verde'), (4, 'verde'), (13, 'verde'), (13, 'vermelho')]
+[(12, 'verde'), (8, 'verde'), (4, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 79.2 minutos
 [(12, 'verde'), (8, 'verde'), (4, 'verde'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 13 NA LINHA VERDE:
+estação 13 na linha verde:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
-G: 82.4 minutos
-[(13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
+para estação 1 na linha azul:
+G: 79.2 minutos
+[(13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
-G: 62.4 minutos
-[(13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul')]
+para estação 2 na linha azul:
+G: 59.2 minutos
+[(13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
-G: 66.4 minutos
-[(13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+para estação 2 na linha amarela:
+G: 63.2 minutos
+[(13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 41.4 minutos
-[(13, 'verde'), (13, 'vermelho'), (3, 'vermelho')]
+[(13, 'verde'), (13, 'vermelha'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
-G: 41.4 minutos
-[(13, 'verde'), (13, 'vermelho'), (3, 'vermelho')]
+para estação 3 na linha azul:
+G: 42.2 minutos
+[(13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 29.6 minutos
 [(13, 'verde'), (4, 'verde'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 25.6 minutos
 [(13, 'verde'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 55.6 minutos
 [(13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 59.6 minutos
-[(13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 61.6 minutos
 [(13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 64.4 minutos
-[(13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 60.2 minutos
-[(13, 'verde'), (4, 'verde'), (8, 'verde'), (8, 'amarelo')]
+[(13, 'verde'), (4, 'verde'), (8, 'verde'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 56.2 minutos
 [(13, 'verde'), (4, 'verde'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
+G: 64.2 minutos
+[(13, 'verde'), (13, 'vermelha'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
+
+para estação 9 na linha vermelha:
 G: 60.2 minutos
-[(13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (9, 'vermelho')]
+[(13, 'verde'), (13, 'vermelha'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
-G: 60.2 minutos
-[(13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (9, 'vermelho')]
+para estação 10 na linha amarela:
+G: 70.2 minutos
+[(13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
-G: 73.4 minutos
-[(13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
-
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 84.6 minutos
-[(13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(13, 'verde'), (13, 'vermelha'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 69.0 minutos
 [(13, 'verde'), (4, 'verde'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 4 minutos
-[(13, 'verde'), (13, 'vermelho')]
+[(13, 'verde'), (13, 'vermelha')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 10.2 minutos
 [(13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 13 NA LINHA VERMELHO:
+estação 13 na linha vermelha:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
+para estação 1 na linha azul:
 G: 78.4 minutos
-[(13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
+[(13, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
+para estação 2 na linha azul:
 G: 58.4 minutos
-[(13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul')]
+[(13, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
-G: 58.4 minutos
-[(13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul')]
+para estação 2 na linha amarela:
+G: 62.4 minutos
+[(13, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 37.4 minutos
-[(13, 'vermelho'), (3, 'vermelho')]
+[(13, 'vermelha'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
+para estação 3 na linha azul:
 G: 41.4 minutos
-[(13, 'vermelho'), (3, 'vermelho'), (3, 'azul')]
+[(13, 'vermelha'), (3, 'vermelha'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 33.6 minutos
-[(13, 'vermelho'), (13, 'verde'), (4, 'verde'), (4, 'azul')]
+[(13, 'vermelha'), (13, 'verde'), (4, 'verde'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 29.6 minutos
-[(13, 'vermelho'), (13, 'verde'), (4, 'verde')]
+[(13, 'vermelha'), (13, 'verde'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 59.6 minutos
-[(13, 'vermelho'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul')]
+[(13, 'vermelha'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 63.6 minutos
-[(13, 'vermelho'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(13, 'vermelha'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 65.6 minutos
-[(13, 'vermelho'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
+[(13, 'vermelha'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 68.4 minutos
-[(13, 'vermelho'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(13, 'vermelha'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 64.2 minutos
-[(13, 'vermelho'), (13, 'verde'), (4, 'verde'), (8, 'verde'), (8, 'amarelo')]
+[(13, 'vermelha'), (13, 'verde'), (4, 'verde'), (8, 'verde'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 60.2 minutos
-[(13, 'vermelho'), (13, 'verde'), (4, 'verde'), (8, 'verde')]
+[(13, 'vermelha'), (13, 'verde'), (4, 'verde'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 60.2 minutos
-[(13, 'vermelho'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(13, 'vermelha'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 56.2 minutos
-[(13, 'vermelho'), (3, 'vermelho'), (9, 'vermelho')]
+[(13, 'vermelha'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
+para estação 10 na linha amarela:
 G: 69.4 minutos
-[(13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+[(13, 'vermelha'), (3, 'vermelha'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 80.6 minutos
-[(13, 'vermelho'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(13, 'vermelha'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 73.0 minutos
-[(13, 'vermelho'), (13, 'verde'), (4, 'verde'), (8, 'verde'), (12, 'verde')]
+[(13, 'vermelha'), (13, 'verde'), (4, 'verde'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 4 minutos
-[(13, 'vermelho'), (13, 'verde')]
+[(13, 'vermelha'), (13, 'verde')]
 
-PARA ESTAÇÃO 14 NA LINHA VERDE:
+para estação 14 na linha verde:
 G: 14.2 minutos
-[(13, 'vermelho'), (13, 'verde'), (14, 'verde')]
+[(13, 'vermelha'), (13, 'verde'), (14, 'verde')]
 
 ************************************************************
-ESTAÇÃO 14 NA LINHA VERDE:
+estação 14 na linha verde:
 
-PARA ESTAÇÃO 1 NA LINHA AZUL:
-G: 92.6 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
+para estação 1 na linha azul:
+G: 89.4 minutos
+[(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (1, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AZUL:
-G: 72.6 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul')]
+para estação 2 na linha azul:
+G: 69.4 minutos
+[(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul')]
 
-PARA ESTAÇÃO 2 NA LINHA AMARELO:
-G: 76.6 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul'), (2, 'amarelo')]
+para estação 2 na linha amarela:
+G: 73.4 minutos
+[(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela')]
 
-PARA ESTAÇÃO 3 NA LINHA VERMELHO:
+para estação 3 na linha vermelha:
 G: 51.599999999999994 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho'), (3, 'vermelho')]
+[(14, 'verde'), (13, 'verde'), (13, 'vermelha'), (3, 'vermelha')]
 
-PARA ESTAÇÃO 3 NA LINHA AZUL:
-G: 55.599999999999994 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (3, 'azul')]
+para estação 3 na linha azul:
+G: 52.4 minutos
+[(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA AZUL:
+para estação 4 na linha azul:
 G: 39.8 minutos
 [(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul')]
 
-PARA ESTAÇÃO 4 NA LINHA VERDE:
+para estação 4 na linha verde:
 G: 35.8 minutos
 [(14, 'verde'), (13, 'verde'), (4, 'verde')]
 
-PARA ESTAÇÃO 5 NA LINHA AZUL:
+para estação 5 na linha azul:
 G: 65.8 minutos
 [(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul')]
 
-PARA ESTAÇÃO 5 NA LINHA AMARELO:
+para estação 5 na linha amarela:
 G: 69.8 minutos
-[(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo')]
+[(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarela')]
 
-PARA ESTAÇÃO 6 NA LINHA AZUL:
+para estação 6 na linha azul:
 G: 71.8 minutos
 [(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (6, 'azul')]
 
-PARA ESTAÇÃO 7 NA LINHA AMARELO:
+para estação 7 na linha amarela:
 G: 74.6 minutos
-[(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarelo'), (7, 'amarelo')]
+[(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (5, 'azul'), (5, 'amarela'), (7, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA AMARELO:
+para estação 8 na linha amarela:
 G: 70.4 minutos
-[(14, 'verde'), (13, 'verde'), (4, 'verde'), (8, 'verde'), (8, 'amarelo')]
+[(14, 'verde'), (13, 'verde'), (4, 'verde'), (8, 'verde'), (8, 'amarela')]
 
-PARA ESTAÇÃO 8 NA LINHA VERDE:
+para estação 8 na linha verde:
 G: 66.4 minutos
 [(14, 'verde'), (13, 'verde'), (4, 'verde'), (8, 'verde')]
 
-PARA ESTAÇÃO 9 NA LINHA AMARELO:
+para estação 9 na linha amarela:
 G: 74.39999999999999 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (9, 'vermelho'), (9, 'amarelo')]
+[(14, 'verde'), (13, 'verde'), (13, 'vermelha'), (3, 'vermelha'), (9, 'vermelha'), (9, 'amarela')]
 
-PARA ESTAÇÃO 9 NA LINHA VERMELHO:
+para estação 9 na linha vermelha:
 G: 70.39999999999999 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (9, 'vermelho')]
+[(14, 'verde'), (13, 'verde'), (13, 'vermelha'), (3, 'vermelha'), (9, 'vermelha')]
 
-PARA ESTAÇÃO 10 NA LINHA AMARELO:
-G: 83.6 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (3, 'azul'), (2, 'azul'), (2, 'amarelo'), (10, 'amarelo')]
+para estação 10 na linha amarela:
+G: 80.4 minutos
+[(14, 'verde'), (13, 'verde'), (4, 'verde'), (4, 'azul'), (3, 'azul'), (2, 'azul'), (2, 'amarela'), (10, 'amarela')]
 
-PARA ESTAÇÃO 11 NA LINHA VERMELHO:
+para estação 11 na linha vermelha:
 G: 94.79999999999998 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho'), (3, 'vermelho'), (9, 'vermelho'), (11, 'vermelho')]
+[(14, 'verde'), (13, 'verde'), (13, 'vermelha'), (3, 'vermelha'), (9, 'vermelha'), (11, 'vermelha')]
 
-PARA ESTAÇÃO 12 NA LINHA VERDE:
+para estação 12 na linha verde:
 G: 79.2 minutos
 [(14, 'verde'), (13, 'verde'), (4, 'verde'), (8, 'verde'), (12, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERDE:
+para estação 13 na linha verde:
 G: 10.2 minutos
 [(14, 'verde'), (13, 'verde')]
 
-PARA ESTAÇÃO 13 NA LINHA VERMELHO:
+para estação 13 na linha vermelha:
 G: 14.2 minutos
-[(14, 'verde'), (13, 'verde'), (13, 'vermelho')]
+[(14, 'verde'), (13, 'verde'), (13, 'vermelha')]
 
 ************************************************************

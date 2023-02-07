@@ -1,3 +1,4 @@
+import heapq
 # ! dentro do algoritmo Astar, a estação 0 é a 1, a 1 é a 2, a 2 é a 3 etc.
 
 direct_distances = []
@@ -9,9 +10,32 @@ line_colors = [["azul"], ["azul", "amarela"], ["azul", "vermelha"], ["azul", "ve
 ["azul"], ["amarela"], ["amarela", "verde"], ["amarela", "vermelha"], ["amarela"], ["vermelha"],
 ["verde"], ["vermelha", "verde"], ["verde"]]
 
-def heap_insert(heap: list, item: tuple):
-    heap.append(item)
-    heap.sort(key=lambda x: x[0])
+def checkInputValidity(start, end):
+    start_color = start[-1]
+    end_color = end[-1]
+
+    if not (start[1]).isnumeric() or not (end[1]).isnumeric():
+        print("por favor indicar a estação da seguinte maneira: 'estação <número> na linha <cor>'")
+        print('ex: estação 1 na linha azul')
+        return False
+
+    start = int(start[1]) - 1
+    end = int(end[1]) - 1
+
+    if start < 0 or start > number_of_stations - 1:
+        print('Número da estação inicial não existente')
+        return False
+    if start_color not in line_colors[start]:
+        print('A estação inicial não possui essa linha')
+        return False
+    if end < 0 or end > number_of_stations - 1:
+        print('Número da estação de destino não existente')
+        return False
+    if end_color not in line_colors[end]:
+        print('A estação de destino não possui essa linha')
+        return False
+
+    return True
 
 def zero_or_one(node, node_color):
     return line_colors[node].index(node_color)
@@ -39,14 +63,13 @@ def heap_update(heap: list, item:tuple):
     nodesColors = [(x[1], x[2]) for x in heap]
     (f, node, color) = item
     if (node, color) not in nodesColors:
-        heap.append(item)
-        heap.sort(key=lambda x: x[0])
+        heapq.heappush(heap, item)
     else:
         for i in range(len(heap)):
             if heap[i][1] == node and heap[i][2] == color:
                 if f < heap[i][0]:
                     heap[i] = item
-                    heap.sort(key=lambda x: x[0])
+                    heap = sorted(heap)
                 break
     
 def get_distances(): #cria matrizes de distancia
@@ -135,10 +158,13 @@ def aStar(start: str, end: str) -> tuple:
     """
     # ? processando o input para extrair nº da estação-1 e cor da linha para as estações inicial e final
     start = start.split(' ')
-    start_color = start[-1]
-    start = int(start[1]) - 1
     end = end.split(' ')
+    isInputValid = checkInputValidity(start, end)
+    if not isInputValid:
+        return
+    start_color = start[-1]
     end_color = end[-1]
+    start = int(start[1]) - 1
     end = int(end[1]) - 1
 
     # ? inicializando listas
@@ -150,10 +176,14 @@ def aStar(start: str, end: str) -> tuple:
 
     # ? inicializando a heap
     heap = []
-    heap_insert(heap, (0, start, start_color))
+    heapq.heappush(heap, (0, start, start_color))
 
     while True:
-        (f, u, u_color) = heap.pop(0) # escolhe a estação com menor f(n) e a remove da heap
+        border = [(f, u+1, u_color) for (f, u, u_color) in heap]
+        border.sort(key=lambda x: x[0])
+        print("fronteira heurística: ", border)
+
+        (f, u, u_color) = heapq.heappop(heap) # escolhe a estação com menor f(n) e a remove da heap
         new_root = 0 if len(heap) == 0 else heap[0][0]
         if (u == end):
             if u_color == end_color or (f+4) < new_root: # ou vc já chegou na estação com a cor certa, ou o tempo pra baldear ainda é curto o suficiente pra essa ser a melhor opção
@@ -163,15 +193,16 @@ def aStar(start: str, end: str) -> tuple:
                 
                 path = find_path(P, end, end_color)
                 
-                print(f"G: {G[zero_or_one(end, end_color)][end]} minutos")
-                print(path)
+                print(f"\nChegamos na estação {end+1} na linha {end_color}!")
+                print(f"Custo: {G[zero_or_one(end, end_color)][end]} minutos")
+                print("Caminho: ", path)
 
                 return(P, G)
             else:
                 if G[zero_or_one(end, u_color)][end] + 4 < G[zero_or_one(end, end_color)][end]: # se valer a pena a baldeação:
                     P[zero_or_one(end, end_color)][end] = (end, u_color)
                     G[zero_or_one(end, end_color)][end] = G[zero_or_one(end, u_color)][end] + 4
-                    heap_update(heap, (f+4, u, end_color))  # atualiza o tempo para chegar no nó final e o adiciona à heap - # ! isso porque você só encontrou o caminho se o f(h) até o nó final for o menor possível (se for o primeiro elemento da heap)
+                    heap_update(heap, (f+4, u, end_color)) # atualiza o tempo para chegar no nó final e o adiciona à heap - # ! isso porque você só encontrou o caminho se o f(h) até o nó final for o menor possível (se for o primeiro elemento da heap)
                 continue
 
         neighboring_nodes = getAvailableCities(u)
@@ -189,22 +220,14 @@ def aStar(start: str, end: str) -> tuple:
 
                 heap_update(heap, (f, v, v_color))
 
-get_distances()
-#aStar("estação 1 na linha azul", "estação 2 na linha azul")
-#aStar("estação 5 na linha amarela", "estação 12 na linha verde")
-
-sts = []
-for i in range(21):
-    sts.append(input()) 
-
-for st in sts:
-    print(st.upper() + ':\n')
-    dests = sts.copy()
-    dests.remove(st)
+def main():
     get_distances()
-    for dest in dests:
-        print("para " + dest + ":")
-        
-        aStar(st, dest)
-        print()
-    print('************************************************************')
+    print("indique as estações da seguinte maneira: 'estação <número> na linha <cor>'")
+    print('ex: estação 1 na linha azul')
+    start = input("estação inicial: ")
+    end = input("estação final: ")
+    print(f"da {start} à {end}")
+    aStar(start, end)
+
+if __name__ == "__main__":
+    main()

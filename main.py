@@ -9,6 +9,33 @@ line_colors = [["azul"], ["azul", "amarela"], ["azul", "vermelha"], ["azul", "ve
 ["azul"], ["amarela"], ["amarela", "verde"], ["amarela", "vermelha"], ["amarela"], ["vermelha"],
 ["verde"], ["vermelha", "verde"], ["verde"]]
 
+def checkInputValidity(start, end):
+    start_color = start[-1]
+    end_color = end[-1]
+
+    if not (start[1]).isnumeric() or not (end[1]).isnumeric():
+        print("por favor indicar a estação da seguinte maneira: 'estação <número> na linha <cor>'")
+        print('ex: estação 1 na linha azul')
+        return False
+
+    start = int(start[1]) - 1
+    end = int(end[1]) - 1
+
+    if start < 0 or start > number_of_stations - 1:
+        print('Número da estação inicial não existente')
+        return False
+    if start_color not in line_colors[start]:
+        print('A estação inicial não possui essa linha')
+        return False
+    if end < 0 or end > number_of_stations - 1:
+        print('Número da estação de destino não existente')
+        return False
+    if end_color not in line_colors[end]:
+        print('A estação de destino não possui essa linha')
+        return False
+
+    return True
+
 def heap_insert(heap: list, item: tuple):
     heap.append(item)
     heap.sort(key=lambda x: x[0])
@@ -135,10 +162,13 @@ def aStar(start: str, end: str) -> tuple:
     """
     # ? processando o input para extrair nº da estação-1 e cor da linha para as estações inicial e final
     start = start.split(' ')
-    start_color = start[-1]
-    start = int(start[1]) - 1
     end = end.split(' ')
+    isInputValid = checkInputValidity(start, end)
+    if not isInputValid:
+        return
+    start_color = start[-1]
     end_color = end[-1]
+    start = int(start[1]) - 1
     end = int(end[1]) - 1
 
     # ? inicializando listas
@@ -189,22 +219,13 @@ def aStar(start: str, end: str) -> tuple:
 
                 heap_update(heap, (f, v, v_color))
 
-get_distances()
-#aStar("estação 1 na linha azul", "estação 2 na linha azul")
-#aStar("estação 5 na linha amarela", "estação 12 na linha verde")
-
-sts = []
-for i in range(21):
-    sts.append(input()) 
-
-for st in sts:
-    print(st.upper() + ':\n')
-    dests = sts.copy()
-    dests.remove(st)
+def main():
     get_distances()
-    for dest in dests:
-        print("para " + dest + ":")
-        
-        aStar(st, dest)
-        print()
-    print('************************************************************')
+    print("indique as estações da seguinte maneira: 'estação <número> na linha <cor>'")
+    print('ex: estação 1 na linha azul')
+    start = input("estação inicial: ")
+    end = input("estação final: ")
+    aStar(start, end)
+
+if __name__ == "__main__":
+    main()
